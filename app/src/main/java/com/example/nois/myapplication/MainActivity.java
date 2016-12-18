@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        for (int counter = 0; counter < 10; counter++) {
+        for (int counter = 0; counter < 50; counter++) {
             Log.i("Mainactivity","Value:" +counter);
         }
     }
